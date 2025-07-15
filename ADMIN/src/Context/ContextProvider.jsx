@@ -23,7 +23,7 @@ const ContextProvider = ({children}) => {
 
     const [ productData, setProductData ] = useState([])
 
-    const url = 'http://localhost:8080'
+    const url = 'https://project-frontend-v5vj.onrender.com'
 
     const submitFun = async (e) => {
         e.preventDefault()

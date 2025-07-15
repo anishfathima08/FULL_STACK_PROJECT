@@ -19,7 +19,7 @@ const MyContextProvider = ( { children } ) => {
 
     var [ productData, setProductData ] = useState([])
 
-    var url = 'http://localhost:8080'
+    var url = 'https://project-frontend-v5vj.onrender.com'
 
     const fetchData = async () => {
         try{
